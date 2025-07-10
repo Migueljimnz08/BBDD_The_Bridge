@@ -20,7 +20,7 @@ El objetivo del proyecto es aplicar conceptos de modelado, normalización y crea
 
 ### 🟢 Modelo Entidad-Relación (E/R)
 
-![Modelo ER](diagrams/Modelo_Entidad_Relacion.PNG)
+![Modelo ER](Modelo_Entidad_Relacion.PNG)
 
 ### 🧱 Modelo Lógico
 
