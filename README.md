@@ -58,23 +58,6 @@ El modelo está preparado para escalar en:
 - Modalidades (Online, Presencial)
 - Nuevas promociones y aulas
 
----
-
-## 🚀 Hosting de la Base de Datos
-
-Se recomienda utilizar servicios gratuitos como [Render](https://render.com/docs/databases) para alojar la base de datos y permitir conexiones externas para futuras integraciones.
-
----
-
-## 📅 Entrega y Presentación
-
-📆 **Fecha de entrega**: Viernes 11 de abril a las 12:00  
-🗣️ **Formato**: Presentación técnica por grupo mostrando:
-- Estructura creada
-- Datos ingestados
-- Consultas de ejemplo sobre la base de datos
-
----
 
 ## 👨‍💻 Autores
 
