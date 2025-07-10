@@ -24,7 +24,7 @@ El objetivo del proyecto es aplicar conceptos de modelado, normalización y crea
 
 ### 🧱 Modelo Lógico
 
-![Modelo Lógico](Diagamas/Modelo_logico.png)
+![Modelo Lógico](diagramas/Modelo_logico.png)
 
 **Entidades y relaciones principales:**
 
