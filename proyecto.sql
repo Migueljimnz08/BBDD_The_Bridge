@@ -1,13 +1,13 @@
 --proyecto grupal 
 
 --Crear tablas 
-DROP TABLE IF EXISTS alumnos;
-DROP TABLE IF EXISTS curso;
-DROP TABLE IF EXISTS escuela;
 DROP TABLE IF EXISTS evaluacion;
+DROP TABLE IF EXISTS alumnos;
 DROP TABLE IF EXISTS profesor;
 DROP TABLE IF EXISTS proyecto;
+DROP TABLE IF EXISTS curso;
 DROP TABLE IF EXISTS vertical;
+DROP TABLE IF EXISTS escuela;
 
 CREATE TABLE IF NOT EXISTS escuela (
     id_campus serial NOT NULL,
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS escuela (
 CREATE TABLE IF NOT EXISTS vertical (
     id_ver serial NOT NULL,
     vertical text,
-    PRIMARY KEY (id_ver),
+    PRIMARY KEY (id_ver)
 );
 
 CREATE TABLE IF NOT EXISTS curso (
@@ -98,7 +98,7 @@ INSERT INTO proyecto (id_proyecto, nombre_proyecto, id_vertical) VALUES
 (8, 'Proyecto_WebDev', 1),
 (9, 'Proyecto_FullSatck', 1);
 
-INSERT INTO Profesores (id_profesor, nombre, rol, id_curso, modalidad, id_vertical) VALUES
+INSERT INTO profesores (id_profesor, nombre, rol, id_curso, modalidad, id_vertical) VALUES
 (0, 'Noa Yáñez', 'TA', 0, 'Presencial', 0),
 (1, 'Saturnina Benitez', 'TA', 0, 'Presencial', 0),
 (2, 'Anna Feliu', 'TA', 0, 'Presencial', 1),
@@ -434,7 +434,7 @@ JOIN curso c ON a.id_curso = c.id_curso
 JOIN evaluacion e ON a.id_alumnos = e.id_alumno
 JOIN proyecto p ON e.id_proyecto = p.id_proyecto
 JOIN escuela esc ON c.id_campus = esc.id_campus
-WHERE c.promocion = 'Febrero' AND esc.campus = 'Madrid',
+WHERE c.promocion = 'Febrero' AND esc.campus = 'Madrid';
 
 -- Alumnos que no han superado algún proyecto
 SELECT DISTINCT
