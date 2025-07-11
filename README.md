@@ -82,6 +82,6 @@ El modelo está preparado para escalar en:
 Trabajo realizado por:
 
 - Jorge Alonso Conde.
-- Renan Muniz Bisteca.
+- Renan Muniz.
 - Vincente Limones.
 - Miguel Ángel Jiménez Morante.
