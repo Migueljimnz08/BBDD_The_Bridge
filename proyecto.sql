@@ -447,3 +447,21 @@ JOIN alumnos AS a
 JOIN proyecto AS p
 	ON e.id_proyecto = p.id_proyecto
 WHERE e.nota = 'No Apto';
+
+SELECT a."ID_Alumnos",
+a."Nombre",
+a."Correo",
+c."Promocion",
+c."Fecha",
+e."Campus",
+l."Nota",
+y."Nombre_proyecto"
+FROM "Alumnos" as a
+JOIN "Curso" as c
+ON a."ID_Curso" = c."ID_Curso"
+JOIN "Escuela" as e
+ON c."ID_Campus" = e."ID_Campus"
+JOIN "Evaluacion" as l
+ON a."ID_Alumnos" = l."ID_Alumno"
+JOIN "Proyecto" as y
+ON l."ID_Proyecto" = y."ID_Proyecto"
