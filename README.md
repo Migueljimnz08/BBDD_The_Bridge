@@ -16,6 +16,14 @@ El objetivo del proyecto es aplicar conceptos de modelado, normalización y crea
 
 ---
 
+## 🖥️ Tecnologías usadas
+
+- SQL para el diseño y carga de las tablas.
+- Docker desktop para contenedores de PostgreSQL y pgAdmin4.
+- pgAdmin4 como interfaz gráfica para administración de la base de datos.
+- Github para el control de versiones.
+- PostgreSQL como sistema de gestión de base de datos.
+
 ## 🧩 Estructura de la Base de Datos
 
 ### 🟢 Modelo Entidad-Relación (E/R)
@@ -38,16 +46,27 @@ El objetivo del proyecto es aplicar conceptos de modelado, normalización y crea
 
 Todas las entidades están correctamente normalizadas e interrelacionadas mediante claves foráneas.
 
----
+## 🚀 Cómo ejecutar el proyecto
 
-## 🧪 Archivos Incluidos
+1. Clonar el repositorio:
 
-- `diagrams/`: diagramas del modelo lógico y E/R.
-- `sql/create_tables.sql`: script de creación de tablas.
-- `sql/insert_data.sql`: inserción de datos base.
-- `README.md`: documentación del proyecto.
+```
+git clone [https://github.com/Migueljimnz08/BBDD_The_Bridge]
+```
 
----
+2. Crea una nueva base de datos (por ejemplo, evaluaciones).
+
+3. Ejecuta el contenido del archivo proyecto.sql para crear las tablas y poblarlas con datos iniciales.
+
+## 📂 Estructura del proyecto
+
+```
+BBDD_THE_BRIDGE/
+|--assets - imágenes y recursos
+|--proyecto.sql - Script SQL para crear tablas e insertar datos
+|--README.md - documentación
+
+```
 
 ## 📈 Escalabilidad
 
@@ -58,12 +77,11 @@ El modelo está preparado para escalar en:
 - Modalidades (Online, Presencial)
 - Nuevas promociones y aulas
 
-
 ## 👨‍💻 Autores
 
 Trabajo realizado por:
 
-- Renan Muniz  
-- Jorge Alonso  
-- Miguel Ángel [...]  
-- Vicen [...]
+- Jorge Alonso Conde.
+- Renan Muniz Bisteca.
+- Vincente Limones.
+- Miguel Ángel Jiménez Morante.
