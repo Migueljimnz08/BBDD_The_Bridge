@@ -28,11 +28,11 @@ El objetivo del proyecto es aplicar conceptos de modelado, normalización y crea
 
 ### 🟢 Modelo Entidad-Relación (E/R)
 
-![Modelo ER](Diagramas/Modelo_Entidad_Relacion.PNG)
+![Modelo ER](assets/Modelo_Entidad_Relacion.PNG)
 
 ### 🧱 Modelo Lógico
 
-![Modelo Lógico](Diagramas/Modelo_logico.png)
+![Modelo Lógico](assets/Trabajo_grupal_SQL.png)
 
 **Entidades y relaciones principales:**
 
